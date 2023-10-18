@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 39px;
+}
+.CounterVal {
+  color: red;
+}
+.paragraph {
+  font-size: 14px;
+}
+.button {
+  background-color: #007bff;
+  height: 35px;
+  width: 80px;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+}
+button:hover {
+  cursor: pointer;
+  outline: none;
+  background-color: purple;
+}
